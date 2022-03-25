@@ -1,0 +1,35 @@
+.container__sobremi {
+    padding:4rem 0;
+    background-color: #A9A9A9;
+}
+
+.sobremi__subtitulo {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobremi__subtitulo i {
+   margin-left:0.7rem;
+}
+
+.sobremi__biografia {
+    line-height: 1.2rem;
+}
+
+.sobremi__firma {
+    position: static;
+    width: 140px;
+    height: 52px;
+    left: 0px;
+    top: 203px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+
+
+

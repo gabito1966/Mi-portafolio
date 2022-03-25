@@ -1,0 +1,58 @@
+.container__skills, .container__hobbies {
+    width: 65%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 2rem;;
+    display: flex;
+    flex-flow:column wrap;      
+}
+
+.skills__conjunto, .hobbies__conjunto {
+    display:flex;
+    grid-gap:1rem;
+} 
+
+
+.hobbies__subtitulo, .skills__subtitulo {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hobbies__subtitulo, .skills__subtitulo  i {
+    margin-left:0.7rem;
+}
+
+.recipiente {
+    background-color:#FFFFFF;
+    flex-basis:50%;
+    padding: 1rem 0;
+    font-size:4rem;
+    color: #2A7AE4;
+    text-align:center;
+    border-radius: 1rem;
+}
+
+
+.recipiente:hover {
+    transform: scale(1.2);
+    background-color: #E6E6FA;
+ }
+
+.recipiente__descripcion {
+    font-size:1rem;
+    color:#464646;
+    font-weight: 500;
+    margin: 0.5rem 0;   
+}
+
+.hobbies {
+    width:4rem;
+    height:4rem;
+}
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+html {
+    background-color: #696969;
+}
+
+.container__header, .container__contenido-principal, .container__footer, .container__sobremi, .container__skills, .container__hobbies, .container__formacion, .container__proyectos, .container__contacto {
+    font-family: 'Raleway', sans-serif;
+    color:#121212;  
+}
+
+.container__contenido-principal, .seccion__sobremi, .container__skills, .container__hobbies, .seccion__formacion, .container__proyectos, .container__footer {
+    width: 65%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 2rem;;
+    display: flex;
+    flex-flow:column wrap;      
+}
+
+.container__skills .skills__subtitulo, .container__hobbies .hobbies__subtitulo, .container__formacion .formacion__subtitulo, .container__proyectos .proyectos__subtitulo {
+    text-align: center;
+    padding:2rem;
+    margin: 0;
+}
+
+
+@media screen and (max-width:768px) {     
+html {
+    width: 95%;
+    font-size:8px;
+}
+
+.container__contenido-principal, .seccion__sobremi, .container__skills, .container__hobbies, .container__formacion, .container__proyectos, .container__footer {
+    width: 98%;
+}
+.foto-perfil {
+    width: 146px;
+    height: 146px;
+}
+    
+.contenido-principal__descripcion {
+    font-size:1.5rem;
+    line-height:2rem;
+}
+.sobremi__firma {
+    top: 170px
+}
+.sobremi__biografia {
+    font-size:1.4rem;
+    line-height:2rem;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+html {
+    font-size:6px;
+}
+
+.container__contenido-principal, .seccion__sobremi, .container__skills, .container__hobbies, .container__formacion, .container__proyectos, .container__footer {
+    width:98%;
+}
+
+.foto-perfil {
+    width: 98px;
+    height: 98px;
+}
+
+.contenido-principal__descripcion {
+    font-size:1.5rem;
+    line-height:2rem;
+}
+
+.firma {
+    top: 266px;
+}
+
+.biografia {
+    font-size:1.8rem;
+    line-height:2.5rem;
+}
+
+.container-descripcion h1 {
+    font-size:3rem;
+}
+
+.conjunto-imagen-botones {
+    flex-flow: wrap;
+}
+
+.recipiente-descripcion, .descripcion-subtitulo2 {
+    font-size:1.35rem;
+}
+
+.estudio {
+    font-size:1.2rem;
+    line-height:1.9rem;
+}
+  
+.imagen__proyecto{
+    width:95%;
+}
+.imagen__proyecto:hover {
+    transform: scale(1.10);
+}
+
+.conjunto-titulo-descripcion-botones {
+    flex-basis:95%;
+    order:2;
+}
+
+.boton-ver, .boton-enviar, .boton-repositorio {
+    font-size:1.45rem;
+}
+  
+.contacto__imagen {
+   display:none;
+}
+
+
+.container-header {
+    width:95%;
+    font-size:1.1rem;
+    margin:1auto;
+}
+
+.container__contenido-principal{
+    margin: 5rem auto;
+}
+
+.header__menu-principall{
+    margin-left:2rem;
+}
+
+.header__nombre {
+    font-size:0;
+}
+
+.header__nombre i {
+    font-size:3rem;
+} 
+
+
+}
+
+
